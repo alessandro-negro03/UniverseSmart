@@ -58,7 +58,7 @@ out = fopen(Anagrafica_matricole,"a"); //apertura del file append
 
 if (out)
   {
-   fprintf(out,"\n Cognome:, %s\n", matricola.cognome);
+   fprintf(out,"\nCognome:, %s\n", matricola.cognome);
    fprintf(out,"Nome:, %s\n", matricola.nome);
    fprintf(out,"ID:, %d\n", matricola.id);
    fclose(out);
