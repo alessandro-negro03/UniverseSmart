@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 #define CSTR 15 
-#define Anagrafica_matricole "Anagrafica_matricole2.csv"
+#define Anagrafica_matricole "Anagrafica_matricole.csv"
 
  struct s_matricola 
     {
