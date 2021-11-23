@@ -55,7 +55,7 @@ out = fopen(Materie,"a"); //apertura del file append
 
 if (out)
   {
-   fprintf(out,"Nome:, %s\n", materia.nome);
+   fprintf(out,"\n Nome:, %s\n", materia.nome);
    fprintf(out,"ID:, %d\n", materia.id);
    fclose(out);
    return 0;
